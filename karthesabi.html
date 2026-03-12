@@ -1,0 +1,244 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header data-aos="fade-down" data-aos-offset="300" data-aos-duration="1000">
+      <nav>
+        <section class="nav-logo">
+          <h1>Exclusive</h1>
+        </section>
+
+        <section class="nav-text">
+          <div class="sozler">
+            <a href="Index.html">Ev</a>
+            <a href="products.html">Məhsullar</a>
+            <a href="About.html">Haqqımda</a>
+            <a href="singup.html">Qeydiyyat</a>
+          </div>
+        </section>
+
+        <section class="nav-axdaris">
+          <div class="axdaris">
+            <input type="text" placeholder="Nə axdarırınız?" />
+            <div class="photo1">
+              <img src="photo/search.png" alt="" />
+            </div>
+          </div>
+          <div class="i1">
+            <img src="photo/heart (2).png" alt="" />
+          </div>
+          <div class="i2">
+            <img src="photo/cart.png" alt="" />
+          </div>
+          <div class="i2">
+            <img src="photo/user.png" alt="" />
+          </div>
+          <div class="i3"></div>
+        </section>
+        <section class="bars" id="bars">
+          <img src="photo/menu.png" alt="" />
+        </section>
+        <section class="off-canvas">
+          <div class="offcanvas-header">
+            <img src="photo/close.png" id="close" alt="" />
+          </div>
+          <div class="offcanvas-body">
+            <div class="text">
+              <ul>
+                <li><a href="Index.html">Ev</a></li>
+                <li><a href="products.html">Məhsullar</a></li>
+                <li><a href="About.html">Haqqımda</a></li>
+                <li><a href="singup.html">Qeydiyyat</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </nav>
+    </header>
+
+    <main class="kartlarim22">
+      <div class="payment-wrapper">
+        <!-- Card -->
+        <div class="card" id="card" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000">
+          <div class="card-top">
+            <div class="logo" id="cardLogo">
+              <div class="red"></div>
+              <div class="yellow"></div>
+            </div>
+            <span id="cardType">Mastercard</span>
+          </div>
+
+          <div class="card-number" id="cardNumber">4169 7388 xxxx xxxx</div>
+
+          <div class="card-bottom">
+            <div>
+              <small>Kart Sahibi</small>
+              <p id="cardName"><Address>Hüseyn Qafarov</Address></p>
+            </div>
+
+            <div>
+              <small>Bitmə</small>
+              <p id="cardDate">Tarixi:01/28</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Payment Form -->
+        <div class="payment-form" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+          <h2>Ödəniş təfərrüatları</h2>
+
+          <input type="text" id="nameInput" placeholder="Kart Sahibinin Adı" />
+          <input
+            type="text"
+            id="numberInput"
+            maxlength="19"
+            placeholder="Kart nömrəsi"
+          />
+
+          <div class="row">
+            <input type="text" id="dateInput" placeholder="MM/YY" />
+            <input type="text" id="cvvInput" maxlength="3" placeholder="CVV" />
+          </div>
+
+          <button id="toggleCard" class="yubutton">Kartı Təsdiqlə</button>
+        </div>
+      </div>
+      <div class="container">
+
+<div class="card-section">
+
+
+<div class="card-info">
+
+
+
+</div>
+
+</div>
+
+
+
+<div class="plans">
+
+<div class="plan" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000">
+<h3>1 Aylıq Abunə</h3>
+<p class="price">10 ₼</p>
+<p>1 ay ərzində bütün xidmətlərə giriş.</p>
+<button>Seç</button>
+</div>
+
+<div class="plan" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+<h3>6 Aylıq Abunə</h3>
+<p class="price">50 ₼</p>
+<p>6 ay tam istifadə imkanı.</p>
+<button>Seç</button>
+</div>
+
+<div class="plan" data-aos="fade-left" data-aos-offset="300" data-aos-duration="1000">
+<h3>1 İllik Abunə</h3>
+<p class="price">90 ₼</p>
+<p>1 il limitsiz istifadə.</p>
+<button>Seç</button>
+</div>
+
+</div>
+
+</div>
+  <section class="video-section">
+
+<video autoplay muted loop playsinline data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000">
+<source src="photo/vidyokkop.mp4" type="video/mp4">
+Sizin brauzer video dəstəkləmir.
+</video>
+
+</section>
+
+
+    </main>
+
+    <footer>
+      <section class="foter-box1" >
+        <h1>Exclusive</h1>
+        <h3>Abunə ol</h3>
+        <p>İlk Sifarişinizi 100% endirim əldə ed</p>
+        <div class="axtaris2">
+          <input type="email" placeholder="E-poştunuzu daxil edin" />
+          <img src="photo/send.png" alt="" />
+        </div>
+        
+      </section>
+
+      <section class="foter-box2">
+        <h1>Dəsdək</h1>
+        <p>
+          111 Bijoy sarani, Dhaka <br />
+          DH 1515 Bangladesh
+        </p>
+        <p>qafarovhuseyn802@gmail.com</p>
+        <p>(+994)-77-344-90-05</p>
+      </section>
+
+      <section class="foter-box3">
+        <h1>Hesab</h1>
+        <p>Hesabım</p>
+        <p>Giriş / Qeydiyyat</p>
+        <p>Səbət</p>
+        <p>İstək siyahısı</p>
+        <p>Mağaza</p>
+      </section>
+
+      <section class="foter-box4">
+        <h1>Sürətli keçid</h1>
+        <p>Məxfillik</p>
+        <p>isdifadəçi Şərtləri</p>
+        <p>Faq</p>
+        <p>Əlaqə</p>
+      </section>
+
+      <section class="foter-box5">
+        <h1>Proqramı yükləyin</h1>
+        <p>Yalnız Yeni istifadəçi Tətbiqi ilə s3-ü yadda saxla</p>
+        <div class="qr-div">
+          <div class="img-qr">
+            <img src="photo/insta.jpeg" />
+          </div>
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              padding: 0 10px;
+              gap: 20px;
+            "
+          >
+            <img src="photo/googleplay.jpeg" />
+            <img src="photo/appstore.jpeg" />
+          </div>
+        </div>
+        <div class="box5-link">
+          <a href="https://www.facebook.com/?locale=tr_TR">
+            <img src="photo/facebook.png" alt="" />
+          </a>
+          <a href="https://www.twitter.new/">
+            <img src="photo/twitter.png" alt="" />
+          </a>
+          <a href="https://www.instagram.com/accounts/login/">
+            <img src="photo/instagram.png" alt="" />
+          </a>
+          <a href="https://tr.linkedin.com/">
+            <img src="photo/linkedin.png" alt="" />
+          </a>
+        </div>
+      </section>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
